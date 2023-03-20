@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    background:url(abut.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.abouth1{
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+.about p:nth-child(1){
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+.about p:nth-child(2){
+ font-size: 18px;
+ color: gray;   
+}
+.about .mbtn1{
+    height: 20px;
+
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(20,219,20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.about .line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20,219,20);
+}
